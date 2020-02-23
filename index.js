@@ -4,7 +4,7 @@ function myAnimal() {
   // You should not need to modify this function
   return animal
 }
-animal = 'cat'
+
 function yourAnimal() {
 
   // The tests expect this function to return `animal` just like the previous function
@@ -13,6 +13,7 @@ function yourAnimal() {
   // and the above function both pass?
   // P.S.: Hard-coding 'cat' below will not work
   return animal
+  animal = 'cat'
 }
 
 function add2(n) {
